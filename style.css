@@ -1,0 +1,150 @@
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    background-color: rgb(112, 42, 46);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .lista {
+    display: flex;
+  }
+
+  .lado-esquerdo,
+  .lado-direito {
+    width: 50%
+  }
+
+  .palavras {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .lado-direito li {
+    background-color: rgb(155, 78, 82);
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex ;
+    flex-direction: column;
+    font-size: 35px;
+  }
+
+  .nome {
+    padding-left: 1400px;
+  }
+
+  .palavra {
+    padding-left: 25px;
+  }
+
+  .dialog {
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+
+  .caixadig {
+    background-color: rgb(156, 59, 64);
+    width: 1400px;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    flex-direction: column;
+    margin: auto;
+    gap: 35px;
+    margin-bottom: 25px;
+   }
+
+  .nome {
+    font-size: 30px;
+  }
+
+  li:hover{
+    transition: 100ms;
+    transform: scale(1.03);
+  }
+
+  .caixadig1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .sec {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .trechos {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    gap: 10px;
+    margin-left: 20px;
+  }
+
+
+  .caixa{
+    background-color: rgb(145, 51, 56);
+    width: 550px;
+    height: 250px;
+    border-radius: 10px;
+    text-align: left;
+    transform: translate(-50%,-50%);
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+  }
+
+  .fechar{
+    font-size: 35px;
+    margin-left: 10px;
+
+  }
+
+  .linha1{
+     background-color: black;
+     height: 2px;
+     width: 500px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     margin-right: auto;
+     margin-left: auto;
+  }
+  .audio{
+    font-size: 20px;
+    height: 50px;
+    width: auto;
+    background: none;
+    border: none;
+  }
+  .audio img{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    position: absolute;
+    display: flex;
+    align-items: baseline;
+  }
+  .divaudio{
+    display: flex;
+    gap: 40px;
+  }
